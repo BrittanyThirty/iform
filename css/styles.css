@@ -1,0 +1,57 @@
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: lightgrey;
+}
+
+form {
+  text-align: right;
+  font-weight: bold;
+  font-size: 11pt;
+  width: 90%;
+  height: 100%;
+}
+
+input {
+  width: 80%;
+  height: 100%;
+}
+
+
+select {
+  width: 80%;
+  height: 100%;
+}
+
+body {
+  padding: 10px;
+  background-color: lightgrey;
+}
+
+h1 {
+  text-align: center;
+  border: none;
+}
+
+.container {
+  margin: 20px;
+  position: absolute;
+  right: 250px;
+  width: 96%;
+  border: 2px solid black;
+  padding: 10px;
+  background-color: white;
+}
+
+#submitForm {
+  width: 17%;
+  height: 100%;
+  color: white;
+  border: 2px solid black;
+  font-weight: bold;
+  background-color: green;
+}
+
+.generatePixels {
+  width: 110%;
+  height: 100%;
+  text-align: center;
+}

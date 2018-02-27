@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Tracking Pixel Generator TV Conversions iSpot.Tv</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <!-- <link rel="icon" href="img/favicon.ico"> -->
+  </head>
+        <!--content here-->
+        <body>
+          <header>
+            <h1>
+              Pixel Generator
+            </h1>
+          </header>
+          <div class= "container">
+              <!--  EVENT LISTENERS and onclick events, and callback functions will go in JQ and JS> -->
+              <select id="app" name="txtApp">
+                <option value="selected">selected</option>
+                <option value="web">web</option>
+                <option value="app">app</option>
+                <option value="ott">ott</option>
+                <option value="digital">digital</option>
+              </select> < /br>
+
+          <!--the # denotes that the form does not "go" anywhere; if you want to use php and sql caution is required-->
+          <form action="#">
+            <label for="siteId">Site Id: </label>
+            <label for="customerId">Customer Id: </label>
+            <label for="customData">Custom Data: </label>
+            <label for="refid">Refid: </label>
+            <input type="text" name="siteId" id="siteId">
+            <input type="text" name="customerId" id="customerId">
+            <input type="text" name="customData" id="customData">
+            <input type="text" name="refid" id="refid">
+          </form>
+          <button class="button" type="btn-btn success" id="submit"</button>
+          </div>
+          <form class="generatePixels">
+            <input id="submitForm" type="submit" align="left" value="Generate Pixels">
+          </div>
+        </br>
+        Staging Pixel : <input type="text" name="txtStagePixel"> </ br>
+        Prod Pixel : <input type="text" name="txtProdPixel"> < /br>
+      </form>
+        </body>
+      </div>
+      </html>
