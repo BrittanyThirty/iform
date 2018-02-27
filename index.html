@@ -17,36 +17,47 @@
               Pixel Generator
             </h1>
           </header>
-          <div class= "container">
+                <div class= "container">
+
               <!--  EVENT LISTENERS and onclick events, and callback functions will go in JQ and JS> -->
-              <select id="app" name="txtApp">
-                <option value="selected">selected</option>
-                <option value="web">web</option>
-                <option value="app">app</option>
-                <option value="ott">ott</option>
-                <option value="digital">digital</option>
-              </select> < /br>
 
           <!--the # denotes that the form does not "go" anywhere; if you want to use php and sql caution is required-->
-          <form action="#">
-            <label for="siteId">Site Id: </label>
-            <label for="customerId">Customer Id: </label>
-            <label for="customData">Custom Data: </label>
-            <label for="refid">Refid: </label>
-            <input type="text" name="siteId" id="siteId">
-            <input type="text" name="customerId" id="customerId">
-            <input type="text" name="customData" id="customData">
-            <input type="text" name="refid" id="refid">
-          </form>
-          <button class="button" type="btn-btn success" id="submit"</button>
-          </div>
-          <form class="generatePixels">
-            <input id="submitForm" type="submit" align="left" value="Generate Pixels">
-          </div>
+          <form class="#">
+            <select id="app" name="txtApp">
+              <option value="selected">selected</option>
+              <option value="web">web</option>
+              <option value="app">app</option>
+              <option value="ott">ott</option>
+              <option value="digital">digital</option>
+            </select>
+             </br>
+           </br>
+          Site Id: <input id ="siteId"placeholder="Enter Site Id details here"></input>
         </br>
-        Staging Pixel : <input type="text" name="txtStagePixel"> </ br>
-        Prod Pixel : <input type="text" name="txtProdPixel"> < /br>
-      </form>
+          Customer Id:  <input for="customerId" placeholder="Enter CID here"></input>
+        </br>
+            Custom Data: <input for="customData" placeholder="Enter Custom Data here"></input>
+          </br>
+            Refid: <input for="refid" placeholder="Enter Refid details here"></input>
+          </br>
+            <label type="text" name="siteId" id="siteId"></label>
+            <label type="text" name="customerId" id="customerId"></label>
+            <label type="text" name="customData" id="customData"></label>
+            <label type="text" name="refid" id="refid"></label>
+            <!-- <fieldset="newPathname"/> -->
+          <form class="generatePixels">
+          </br>
+            <input id="submitForm" type="submit" align="left" value="Generate Pixels">
+          </br>
+            Staging Pixel : <input type="text" name="txtStagePixel">
+          </br>
+            Prod Pixel : <input type="text" name="txtProdPixel">
+          </br>
+          </form>
+          <button class="button" type="btn" id="submit"</button>
+          </div>
+          </form>
+        </footer>
+    </div>
         </body>
-      </div>
       </html>
